@@ -1,0 +1,32 @@
+#!/bin/bash
+
+python main.py --dataset='cifar10' --kd=0 --FedDyn=0;
+python main.py --dataset='cifar10' --kd=0 --FedDyn=0 --base=0;
+python main.py --dataset='cifar10' --kd=0 --FedDyn=0 --base=1;
+python main.py --dataset='cifar10' --kd=0 --FedDyn=0 --base=2;
+python main.py --dataset='cifar10' --kd=0 --FedDyn=0 --base=3;
+python main.py --dataset='cifar10';
+python main.py --dataset='cifar10' --base=0;
+python main.py --dataset='cifar10' --base=1;
+python main.py --dataset='cifar10' --base=2;
+python main.py --dataset='cifar10' --base=3;
+python main.py --dataset='cifar100' --kd=0 --FedDyn=0;
+python main.py --dataset='cifar100' --kd=0 --FedDyn=0 --base=0;
+python main.py --dataset='cifar100' --kd=0 --FedDyn=0 --base=1;
+python main.py --dataset='cifar100' --kd=0 --FedDyn=0 --base=2;
+python main.py --dataset='cifar100' --kd=0 --FedDyn=0 --base=3;
+python main.py --dataset='cifar100';
+python main.py --dataset='cifar100' --base=0;
+python main.py --dataset='cifar100' --base=1;
+python main.py --dataset='cifar100' --base=2;
+python main.py --dataset='cifar100' --base=3;
+python main.py --dataset='tiny-imagenet' --kd=0 --FedDyn=0;
+python main.py --dataset='tiny-imagenet' --kd=0 --FedDyn=0 --base=0;
+python main.py --dataset='tiny-imagenet' --kd=0 --FedDyn=0 --base=1;
+python main.py --dataset='tiny-imagenet' --kd=0 --FedDyn=0 --base=2;
+python main.py --dataset='tiny-imagenet' --kd=0 --FedDyn=0 --base=3;
+python main.py --dataset='tiny-imagenet';
+python main.py --dataset='tiny-imagenet' --base=0;
+python main.py --dataset='tiny-imagenet' --base=1;
+python main.py --dataset='tiny-imagenet' --base=2;
+python main.py --dataset='tiny-imagenet' --base=3;
